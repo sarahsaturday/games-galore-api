@@ -1,0 +1,68 @@
+{
+  "users": [
+    { "id": 1, "fullName": "John Doe", "email": "johndoe@example.com", "phone": "123-456-7890", "homeAddress": "123 Main St", "isStaff": true, "isManager": false },
+    { "id": 2, "fullName": "Jane Smith", "email": "janesmith@example.com", "phone": "987-654-3210", "homeAddress": "456 Elm St", "isStaff": true, "isManager": false },
+    { "id": 3, "fullName": "David Johnson", "email": "davidjohnson@example.com", "phone": "555-555-5555", "homeAddress": "789 Oak St", "isStaff": true, "isManager": false },
+    { "id": 4, "fullName": "Sarah Adams", "email": "sarahadams@example.com", "phone": "111-222-3333", "homeAddress": "999 Pine St", "isStaff": true, "isManager": true },
+    { "id": 5, "fullName": "Michael Lee", "email": "michaellee@example.com", "phone": "444-444-4444", "homeAddress": "222 Maple St", "isStaff": true, "isManager": true },
+    { "id": 6, "fullName": "Emily Davis", "email": "emilydavis@example.com", "phone": "777-777-7777", "homeAddress": "333 Oak St", "isStaff": true, "isManager": true },
+    { "id": 7, "fullName": "Alex Wilson", "email": "alexwilson@example.com", "phone": "888-888-8888", "homeAddress": "444 Elm St", "isStaff": false, "isManager": false },
+    { "id": 8, "fullName": "Olivia Turner", "email": "oliviaturner@example.com", "phone": "666-666-6666", "homeAddress": "555 Pine St", "isStaff": false, "isManager": false },
+    { "id": 9, "fullName": "Ethan Clark", "email": "ethanclark@example.com", "phone": "999-999-9999", "homeAddress": "666 Maple St", "isStaff": false, "isManager": false }
+  ],
+  "customers": [
+    { "id": 1, "loyaltyNumber": 12345, "userId": 7 },
+    { "id": 2, "loyaltyNumber": 67890, "userId": 8 },
+    { "id": 3, "loyaltyNumber": 54321, "userId": 9 }
+  ],
+  "employees": [
+    { "id": 1, "startDate": "2023-01-01", "payRate": 15.0, "userId": 1, "storeId": 1 },
+    { "id": 2, "startDate": "2023-01-01", "payRate": 20.0, "userId": 2, "storeId": 2 },
+    { "id": 3, "startDate": "2023-01-01", "payRate": 25.0, "userId": 3, "storeId": 3 },
+    { "id": 4, "startDate": "2023-01-01", "payRate": 30.0, "userId": 4, "storeId": 1 },
+    { "id": 5, "startDate": "2023-01-01", "payRate": 35.0, "userId": 5, "storeId": 2 },
+    { "id": 6, "startDate": "2023-01-01", "payRate": 40.0, "userId": 6, "storeId": 3 }
+  ],
+  "stores": [
+    { "id": 1, "storeName": "Game Haven", "storeAddress": "123 Main St", "storePhone": "111-111-1111", "storeHours": "9:00 AM - 6:00 PM", "gameId": [1, 2, 3], "employeeId": 1 },
+    { "id": 2, "storeName": "Game Central", "storeAddress": "456 Elm St", "storePhone": "222-222-2222", "storeHours": "10:00 AM - 7:00 PM", "gameId": [2, 3, 4], "employeeId": 2 },
+    { "id": 3, "storeName": "Game World", "storeAddress": "789 Oak St", "storePhone": "333-333-3333", "storeHours": "11:00 AM - 8:00 PM", "gameId": [1, 3, 5], "employeeId": 3 },
+    { "id": 4, "storeName": "Game Universe", "storeAddress": "999 Pine St", "storePhone": "444-444-4444", "storeHours": "9:00 AM - 6:00 PM", "gameId": [4, 5], "employeeId": 4 }
+  ],
+  "games": [
+    { "id": 1, "gameTitle": "Monopoly", "categoryId": 1, "storeId": [1, 3], "price": 29.99, "dateEntered": "2015-01-01", "imageUrl": "https://i5.walmartimages.com/asr/e1fe5e64-57b4-46b8-92d9-841d9c162f92.f48f194a7b5ef0cc502e4655cef62cc4.jpeg" },
+    { "id": 2, "gameTitle": "Dominion", "categoryId": 3, "storeId": [2, 3, 4], "price": 34.99, "dateEntered": "2018-01-01", "imageUrl": "https://i5.walmartimages.com/asr/5fd99f7b-7b47-492d-a216-13670cf71f6f.a93493e2f7b04dfb14e9c479b3c38d36.jpeg" },
+    { "id": 3, "gameTitle": "Scrabble", "categoryId": 1, "storeId": [1, 2, 3], "price": 19.99, "dateEntered": "2019-01-05", "imageUrl": "https://i5.walmartimages.com/asr/b85bfdf6-b7be-4756-a96a-5d8c43eea0dd_1.93b6d6eaaad3ebef1cc293c74fa3bca4.jpeg" },
+    { "id": 4, "gameTitle": "Ticket to Ride", "categoryId": 2, "storeId": [2, 4], "price": 39.99, "dateEntered": "2020-01-01", "imageUrl": "https://i5.walmartimages.com/asr/2f7b1e7c-bf48-4108-a5f5-b6d61745d9ff.e7bbe5330a6f5e2e6eca3401de207692.jpeg" },
+    { "id": 5, "gameTitle": "Pandemic", "categoryId": 2, "storeId": [3, 4], "price": 44.99, "dateEntered": "2023-01-01", "imageUrl": "https://i5.walmartimages.com/asr/ca3ec909-96e5-4bfa-bd37-597bc8d6b580_2.3fa0b1d3a5af21b6b81f34b50e95f4eb.jpeg" }
+  ],
+  "categories": [
+    { "id": 1, "categoryName": "Board Games" },
+    { "id": 2, "categoryName": "Card Games" },
+    { "id": 3, "categoryName": "Strategy" }
+  ],
+  "purchaseOrders": [
+    { "id": 1, "customerId": 1, "employeeId": 4, "gameId": 1 },
+    { "id": 2, "customerId": 2, "employeeId": 5, "gameId": 2 },
+    { "id": 3, "customerId": 3, "employeeId": 6, "gameId": 3 },
+    { "id": 4, "customerId": 1, "employeeId": 5, "gameId": 4 },
+    { "id": 5, "customerId": 2, "employeeId": 6, "gameId": 5 },
+    { "id": 6, "customerId": 3, "employeeId": 4, "gameId": 1 },
+    { "id": 7, "customerId": 1, "employeeId": 6, "gameId": 2 },
+    { "id": 8, "customerId": 2, "employeeId": 5, "gameId": 3 }
+  ],
+  "gamesInStores": [
+    { "id": 1, "gameId": 1, "storeId": 1 },
+    { "id": 2, "gameId": 1, "storeId": 3 },
+    { "id": 3, "gameId": 2, "storeId": 1 },
+    { "id": 4, "gameId": 2, "storeId": 2 },
+    { "id": 5, "gameId": 2, "storeId": 3 },
+    { "id": 6, "gameId": 3, "storeId": 1 },
+    { "id": 7, "gameId": 3, "storeId": 2 },
+    { "id": 8, "gameId": 3, "storeId": 3 },
+    { "id": 9, "gameId": 4, "storeId": 2 },
+    { "id": 10, "gameId": 4, "storeId": 4 },
+    { "id": 11, "gameId": 5, "storeId": 3 },
+    { "id": 12, "gameId": 5, "storeId": 4 }
+  ]
+}
