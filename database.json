@@ -150,11 +150,6 @@
       "storeAddress": "123 Main St",
       "storePhone": "111-111-1111",
       "storeHours": "9:00 AM - 6:00 PM",
-      "gameId": [
-        1,
-        2,
-        3
-      ],
       "employeeId": [
         1,
         2
@@ -166,11 +161,6 @@
       "storeAddress": "456 Elm St",
       "storePhone": "222-222-2222",
       "storeHours": "10:00 AM - 7:00 PM",
-      "gameId": [
-        2,
-        3,
-        4
-      ],
       "employeeId": [
         3,
         4
@@ -182,11 +172,6 @@
       "storeAddress": "789 Oak St",
       "storePhone": "333-333-3333",
       "storeHours": "11:00 AM - 8:00 PM",
-      "gameId": [
-        1,
-        3,
-        5
-      ],
       "employeeId": [
         5,
         6
@@ -198,24 +183,14 @@
       "storeAddress": "999 Pine St",
       "storePhone": "444-444-4444",
       "storeHours": "9:00 AM - 6:00 PM",
-      "gameId": [
-        4,
-        5
-      ],
-      "employeeId": [
-        
-      ]
+      "employeeId": []
     }
   ],
   "games": [
     {
       "id": 1,
-      "gameTitle": "Monopoly",
-      "categoryId": 1,
-      "storeId": [
-        1,
-        3
-      ],
+      "gameTitle": "Monopoly 7",
+      "categoryId": 2,
       "price": 29.99,
       "dateEntered": "2015-01-01",
       "imageUrl": "https://i5.walmartimages.com/asr/e1fe5e64-57b4-46b8-92d9-841d9c162f92.f48f194a7b5ef0cc502e4655cef62cc4.jpeg"
@@ -224,11 +199,6 @@
       "id": 2,
       "gameTitle": "Dominion",
       "categoryId": 3,
-      "storeId": [
-        2,
-        3,
-        4
-      ],
       "price": 34.99,
       "dateEntered": "2018-01-01",
       "imageUrl": "https://i5.walmartimages.com/asr/5fd99f7b-7b47-492d-a216-13670cf71f6f.a93493e2f7b04dfb14e9c479b3c38d36.jpeg"
@@ -237,11 +207,6 @@
       "id": 3,
       "gameTitle": "Scrabble",
       "categoryId": 1,
-      "storeId": [
-        1,
-        2,
-        3
-      ],
       "price": 19.99,
       "dateEntered": "2019-01-05",
       "imageUrl": "https://i5.walmartimages.com/asr/b85bfdf6-b7be-4756-a96a-5d8c43eea0dd_1.93b6d6eaaad3ebef1cc293c74fa3bca4.jpeg"
@@ -250,10 +215,6 @@
       "id": 4,
       "gameTitle": "Ticket to Ride",
       "categoryId": 2,
-      "storeId": [
-        2,
-        4
-      ],
       "price": 39.99,
       "dateEntered": "2020-01-01",
       "imageUrl": "https://i5.walmartimages.com/asr/2f7b1e7c-bf48-4108-a5f5-b6d61745d9ff.e7bbe5330a6f5e2e6eca3401de207692.jpeg"
@@ -262,10 +223,6 @@
       "id": 5,
       "gameTitle": "Pandemic",
       "categoryId": 2,
-      "storeId": [
-        3,
-        4
-      ],
       "price": 44.99,
       "dateEntered": "2023-01-01",
       "imageUrl": "https://i5.walmartimages.com/asr/ca3ec909-96e5-4bfa-bd37-597bc8d6b580_2.3fa0b1d3a5af21b6b81f34b50e95f4eb.jpeg"
@@ -339,7 +296,7 @@
     {
       "id": 1,
       "gameId": 1,
-      "storeId": 1
+      "storeId": 4
     },
     {
       "id": 2,
