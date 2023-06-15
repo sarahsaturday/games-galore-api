@@ -80,33 +80,6 @@
       "streetAddress": "666 Maple St",
       "isStaff": false,
       "isManager": false
-    },
-    {
-      "id": 10,
-      "fullName": "Weds2 Test",
-      "email": "weds2@test.com",
-      "phone": "333-333-3333",
-      "streetAddress": "333 3rd St",
-      "isStaff": false,
-      "isManager": false
-    },
-    {
-      "id": 11,
-      "fullName": "Weds Employee",
-      "email": "wedemp@test.com",
-      "phone": "333-333-3333",
-      "streetAddress": "333 3rd St",
-      "isStaff": true,
-      "isManager": false
-    },
-    {
-      "id": 12,
-      "fullName": "Test Cust",
-      "email": "test@cust.com",
-      "phone": "333-333-3333",
-      "streetAddress": "333 3rd St",
-      "isStaff": false,
-      "isManager": false
     }
   ],
   "customers": [
@@ -124,67 +97,50 @@
       "id": 3,
       "loyaltyNumber": 54321,
       "userId": 9
-    },
-    {
-      "id": 4,
-      "loyaltyNumber": 67891,
-      "userId": 10
-    },
-    {
-      "id": 5,
-      "loyaltyNumber": 67892,
-      "userId": 12
     }
   ],
   "employees": [
     {
       "id": 1,
-      "startDate": "2021-01-0100:00:00.000Z",
+      "startDate": "2021-01-01",
       "payRate": 15,
       "userId": 1,
       "storeId": 1
     },
     {
       "id": 2,
-      "startDate": "2022-01-0100:00:00.000Z",
+      "startDate": "2022-01-01",
       "payRate": 20,
       "userId": 2,
       "storeId": 2
     },
     {
       "id": 3,
-      "startDate": "2019-01-0100:00:00.000Z",
+      "startDate": "2019-01-01",
       "payRate": 25,
       "userId": 3,
       "storeId": 3
     },
     {
       "id": 4,
-      "startDate": "2020-01-0100:00:00.000Z",
+      "startDate": "2020-01-01",
       "payRate": 30,
       "userId": 4,
       "storeId": 1
     },
     {
       "id": 5,
-      "startDate": "2018-01-0100:00:00.000Z",
+      "startDate": "2018-01-01",
       "payRate": 35,
       "userId": 5,
       "storeId": 2
     },
     {
       "id": 6,
-      "startDate": "2015-01-0100:00:00.000Z",
+      "startDate": "2015-01-01",
       "payRate": 40,
       "userId": 6,
       "storeId": 3
-    },
-    {
-      "id": 7,
-      "startDate": "2023-07-25T00:00:00.000Z",
-      "payRate": 45.67,
-      "userId": 11,
-      "storeId": 4
     }
   ],
   "stores": [
@@ -247,7 +203,7 @@
         5
       ],
       "employeeId": [
-        7
+        
       ]
     }
   ],
