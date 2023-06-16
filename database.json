@@ -151,8 +151,8 @@
       "storePhone": "111-111-1111",
       "storeHours": "9:00 AM - 6:00 PM",
       "employeeId": [
-        1,
-        2
+        3,
+        5
       ]
     },
     {
@@ -181,9 +181,12 @@
       "id": 4,
       "storeName": "Game Universe",
       "storeAddress": "999 Pine St",
-      "storePhone": "444-444-4444",
+      "storePhone": "444-444-4445",
       "storeHours": "9:00 AM - 6:00 PM",
-      "employeeId": []
+      "employeeId": [
+        1,
+        6
+      ]
     }
   ],
   "games": [
