@@ -58,7 +58,7 @@
       "id": 7,
       "fullName": "Alex Wilson",
       "email": "alexwilson7@example.com",
-      "phone": "888-888-8887",
+      "phone": "888-888-8888",
       "streetAddress": "447 Elm St",
       "isStaff": false,
       "isManager": false
@@ -80,6 +80,24 @@
       "streetAddress": "666 Maple St",
       "isStaff": false,
       "isManager": false
+    },
+    {
+      "id": 10,
+      "fullName": "Customer Test",
+      "email": "test@cust.com",
+      "phone": "333-333-3333",
+      "streetAddress": "123 4th St",
+      "isStaff": false,
+      "isManager": false
+    },
+    {
+      "id": 11,
+      "fullName": "TEST EMPL",
+      "email": "TEST@EMPL.COM",
+      "phone": "333-333-3333",
+      "streetAddress": "333 3RD ST",
+      "isStaff": true,
+      "isManager": false
     }
   ],
   "customers": [
@@ -97,6 +115,11 @@
       "id": 3,
       "loyaltyNumber": 54321,
       "userId": 9
+    },
+    {
+      "id": 4,
+      "loyaltyNumber": 88888,
+      "userId": 10
     }
   ],
   "employees": [
@@ -141,6 +164,13 @@
       "payRate": 40,
       "userId": 6,
       "storeId": 3
+    },
+    {
+      "id": 7,
+      "startDate": "2023-10-10",
+      "payRate": 33.33,
+      "userId": 11,
+      "storeId": 3
     }
   ],
   "stores": [
@@ -149,44 +179,42 @@
       "storeName": "Game Haven",
       "storeAddress": "123 Main St",
       "storePhone": "111-111-1111",
-      "storeHours": "9:00 AM - 6:00 PM",
-      "employeeId": [
-        3,
-        5
-      ]
+      "storeHours": "9:00 AM - 6:00 PM"
     },
     {
       "id": 2,
       "storeName": "Game Central",
       "storeAddress": "456 Elm St",
       "storePhone": "222-222-2222",
-      "storeHours": "10:00 AM - 7:00 PM",
-      "employeeId": [
-        3,
-        4
-      ]
+      "storeHours": "10:00 AM - 7:00 PM"
     },
     {
       "id": 3,
       "storeName": "Game World",
       "storeAddress": "789 Oak St",
       "storePhone": "333-333-3333",
-      "storeHours": "11:00 AM - 8:00 PM",
-      "employeeId": [
-        5,
-        6
-      ]
+      "storeHours": "11:00 AM - 8:00 PM"
     },
     {
       "id": 4,
       "storeName": "Game Universe",
       "storeAddress": "999 Pine St",
       "storePhone": "444-444-4445",
-      "storeHours": "9:00 AM - 6:00 PM",
-      "employeeId": [
-        1,
-        6
-      ]
+      "storeHours": "9:00 AM - 6:00 PM"
+    },
+    {
+      "id": 6,
+      "storeName": "TEST ARRAY",
+      "storeAddress": "HELLO",
+      "storePhone": "333-333-3333",
+      "storeHours": "9-5"
+    },
+    {
+      "id": 7,
+      "storeName": "TEST STORE",
+      "storeAddress": "TEST ADDRESS",
+      "storePhone": "333-333-3333",
+      "storeHours": "9:00 AM - 6:00 PM"
     }
   ],
   "games": [
@@ -197,9 +225,7 @@
       "price": 29.99,
       "dateEntered": "2015-01-01",
       "imageUrl": "https://i5.walmartimages.com/asr/e1fe5e64-57b4-46b8-92d9-841d9c162f92.f48f194a7b5ef0cc502e4655cef62cc4.jpeg",
-      "storeIds": [
-        4
-      ]
+      "quantity": 25
     },
     {
       "id": 2,
@@ -208,10 +234,7 @@
       "price": 89.99,
       "dateEntered": "2018-01-01",
       "imageUrl": "https://i5.walmartimages.com/asr/5fd99f7b-7b47-492d-a216-13670cf71f6f.a93493e2f7b04dfb14e9c479b3c38d36.jpeg",
-      "storeIds": [
-        1,
-        2
-      ]
+      "quantity": 25
     },
     {
       "id": 3,
@@ -220,9 +243,7 @@
       "price": 19.99,
       "dateEntered": "2019-01-05",
       "imageUrl": "https://i5.walmartimages.com/asr/b85bfdf6-b7be-4756-a96a-5d8c43eea0dd_1.93b6d6eaaad3ebef1cc293c74fa3bca4.jpeg",
-      "storeIds": [
-        3
-      ]
+      "quantity": 25
     },
     {
       "id": 4,
@@ -231,10 +252,7 @@
       "price": 59.99,
       "dateEntered": "2020-01-01",
       "imageUrl": "https://i5.walmartimages.com/asr/2f7b1e7c-bf48-4108-a5f5-b6d61745d9ff.e7bbe5330a6f5e2e6eca3401de207692.jpeg",
-      "storeIds": [
-        2,
-        4
-      ]
+      "quantity": 25
     },
     {
       "id": 5,
@@ -243,12 +261,7 @@
       "price": 49.99,
       "dateEntered": "2023-01-01",
       "imageUrl": "https://i5.walmartimages.com/asr/ca3ec909-96e5-4bfa-bd37-597bc8d6b580_2.3fa0b1d3a5af21b6b81f34b50e95f4eb.jpeg",
-      "storeIds": [
-        3,
-        2,
-        1,
-        4
-      ]
+      "quantity": 25
     },
     {
       "id": 6,
@@ -256,10 +269,7 @@
       "categoryId": 2,
       "price": 22.22,
       "imageUrl": "https://www.pngkit.com/png/detail/228-2283144_beta-test-game-beta-testing.png",
-      "storeIds": [
-        1,
-        2
-      ]
+      "quantity": 25
     },
     {
       "id": 7,
@@ -267,9 +277,7 @@
       "categoryId": 3,
       "price": 11.11,
       "imageUrl": "https://www.pngkit.com/png/detail/228-2283144_beta-test-game-beta-testing.png",
-      "storeIds": [
-        4
-      ]
+      "quantity": 25
     }
   ],
   "categories": [
