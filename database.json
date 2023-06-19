@@ -83,7 +83,7 @@
     },
     {
       "id": 10,
-      "fullName": "Customer Test",
+      "fullName": "Customer Test 10",
       "email": "cust@test.com",
       "phone": "333-333-3333",
       "streetAddress": "333 3rd St",
@@ -92,7 +92,43 @@
     },
     {
       "id": 11,
-      "fullName": "Employee Test",
+      "fullName": "Employee Test 11",
+      "email": "empl@test.com",
+      "phone": "333-333-3333",
+      "streetAddress": "333 3rd St",
+      "isStaff": true,
+      "isManager": false
+    },
+    {
+      "id": 12,
+      "fullName": "Customer Test 12",
+      "email": "cust@test.com",
+      "phone": "333-333-3333",
+      "streetAddress": "333 3rd St",
+      "isStaff": false,
+      "isManager": false
+    },
+    {
+      "id": 13,
+      "fullName": "Employee Test 13",
+      "email": "empl@test.com",
+      "phone": "333-333-3333",
+      "streetAddress": "333 3rd St",
+      "isStaff": true,
+      "isManager": false
+    },
+    {
+      "id": 14,
+      "fullName": "Customer Test 14",
+      "email": "cust@test.com",
+      "phone": "333-333-3333",
+      "streetAddress": "333 3rd St",
+      "isStaff": false,
+      "isManager": false
+    },
+    {
+      "id": 15,
+      "fullName": "Employee Test 15",
       "email": "empl@test.com",
       "phone": "333-333-3333",
       "streetAddress": "333 3rd St",
@@ -108,18 +144,28 @@
     },
     {
       "id": 2,
-      "loyaltyNumber": 67890,
+      "loyaltyNumber": 12346,
       "userId": 8
     },
     {
       "id": 3,
-      "loyaltyNumber": 54321,
+      "loyaltyNumber": 12347,
       "userId": 9
     },
     {
       "id": 4,
-      "loyaltyNumber": 67891,
+      "loyaltyNumber": 12348,
       "userId": 10
+    },
+    {
+      "id": 5,
+      "loyaltyNumber": 12349,
+      "userId": 12
+    },
+    {
+      "id": 6,
+      "loyaltyNumber": 12350,
+      "userId": 14
     }
   ],
   "employees": [
@@ -127,50 +173,55 @@
       "id": 1,
       "startDate": "2021-01-01",
       "payRate": 15,
-      "userId": 1,
-      "storeId": 1
+      "userId": 1
     },
     {
       "id": 2,
       "startDate": "2022-01-01",
       "payRate": 20,
-      "userId": 2,
-      "storeId": 2
+      "userId": 2
     },
     {
       "id": 3,
       "startDate": "2019-01-01",
       "payRate": 25,
-      "userId": 3,
-      "storeId": 3
+      "userId": 3
     },
     {
       "id": 4,
       "startDate": "2020-01-01",
       "payRate": 30,
-      "userId": 4,
-      "storeId": 1
+      "userId": 4
     },
     {
       "id": 5,
       "startDate": "2018-01-01",
       "payRate": 35,
-      "userId": 5,
-      "storeId": 2
+      "userId": 5
     },
     {
       "id": 6,
       "startDate": "2015-01-01",
       "payRate": 40,
-      "userId": 6,
-      "storeId": 3
+      "userId": 6
     },
     {
       "id": 7,
-      "startDate": "2023-06-30",
-      "payRate": 33.33,
-      "userId": 11,
-      "storeId": 6
+      "startDate": "2015-01-01",
+      "payRate": 40,
+      "userId": 11
+    },
+    {
+      "id": 8,
+      "startDate": "2020-03-15",
+      "payRate": 35,
+      "userId": 13
+    },
+    {
+      "id": 9,
+      "startDate": "2018-09-10",
+      "payRate": 42,
+      "userId": 15
     }
   ],
   "stores": [
@@ -203,15 +254,36 @@
       "storeHours": "9:00 AM - 6:00 PM"
     },
     {
-      "id": 6,
-      "storeName": "TEST ARRAY",
-      "storeAddress": "HELLO",
+      "id": 7,
+      "storeName": "TEST STORE 7",
+      "storeAddress": "TEST ADDRESS",
       "storePhone": "333-333-3333",
-      "storeHours": "9:00 AM - 5:00 PM"
+      "storeHours": "9:00 AM - 6:00 PM"
     },
     {
-      "id": 7,
-      "storeName": "TEST STORE",
+      "id": 8,
+      "storeName": "TEST STORE 8",
+      "storeAddress": "TEST ADDRESS",
+      "storePhone": "333-333-3333",
+      "storeHours": "9:00 AM - 6:00 PM"
+    },
+    {
+      "id": 9,
+      "storeName": "TEST STORE 9",
+      "storeAddress": "TEST ADDRESS",
+      "storePhone": "333-333-3333",
+      "storeHours": "9:00 AM - 6:00 PM"
+    },
+    {
+      "id": 10,
+      "storeName": "TEST STORE 10",
+      "storeAddress": "TEST ADDRESS",
+      "storePhone": "333-333-3333",
+      "storeHours": "9:00 AM - 6:00 PM"
+    },
+    {
+      "id": 11,
+      "storeName": "TEST STORE 11",
       "storeAddress": "TEST ADDRESS",
       "storePhone": "333-333-3333",
       "storeHours": "9:00 AM - 6:00 PM"
@@ -260,10 +332,45 @@
     },
     {
       "id": 6,
-      "gameTitle": "TEST GAME",
+      "gameTitle": "TEST GAME 6",
       "categoryId": 2,
       "price": 22.22,
       "imageUrl": "https://www.pngkit.com/png/detail/228-2283144_beta-test-game-beta-testing.png"
+    },
+    {
+      "id": 7,
+      "gameTitle": "TEST GAME 7",
+      "categoryId": 2,
+      "price": 22.22,
+      "imageUrl": "https://www.pngkit.com/png/detail/228-2283144_beta-test-game-beta-testing.png"
+    },
+    {
+      "id": 8,
+      "gameTitle": "TEST GAME 8",
+      "categoryId": 2,
+      "price": 22.22,
+      "imageUrl": "https://www.pngkit.com/png/detail/228-2283144_beta-test-game-beta-testing.png"
+    },
+    {
+      "id": 9,
+      "gameTitle": "TEST GAME 9",
+      "categoryId": 2,
+      "price": 22.22,
+      "imageUrl": "https://www.pngkit.com/png/detail/228-2283144_beta-test-game-beta-testing.png"
+    },
+    {
+      "id": 10,
+      "gameTitle": "TEST GAME 10",
+      "categoryId": 2,
+      "price": 22.22,
+      "imageUrl": "https://www.pngkit.com/png/detail/228-2283144_beta-test-game-beta-testing.png"
+    },
+    {
+      "gameTitle": "TEST ADD GAME",
+      "categoryId": 2,
+      "price": 33.33,
+      "imageUrl": "https://www.pngkit.com/png/detail/228-2283144_beta-test-game-beta-testing.png",
+      "id": 11
     }
   ],
   "categories": [
@@ -289,17 +396,42 @@
     {
       "id": 2,
       "storeId": 1,
-      "employeeId": 4
+      "employeeId": 2
     },
     {
       "id": 3,
       "storeId": 2,
-      "employeeId": 2
+      "employeeId": 3
     },
     {
       "id": 4,
       "storeId": 2,
+      "employeeId": 4
+    },
+    {
+      "id": 5,
+      "storeId": 1,
       "employeeId": 5
+    },
+    {
+      "id": 6,
+      "storeId": 2,
+      "employeeId": 6
+    },
+    {
+      "id": 7,
+      "storeId": 2,
+      "employeeId": 11
+    },
+    {
+      "id": 8,
+      "storeId": 2,
+      "employeeId": 13
+    },
+    {
+      "id": 9,
+      "storeId": 2,
+      "employeeId": 15
     }
   ],
   "games_in_stores": [
@@ -344,6 +476,24 @@
       "storeId": 4,
       "gameId": 6,
       "quantity": 3
+    },
+    {
+      "gameId": 11,
+      "storeId": 1,
+      "quantity": 53,
+      "id": 9
+    },
+    {
+      "gameId": 11,
+      "storeId": 10,
+      "quantity": 77,
+      "id": 10
+    },
+    {
+      "gameId": 11,
+      "storeId": 3,
+      "quantity": 44,
+      "id": 11
     }
   ],
   "purchaseOrders": [
