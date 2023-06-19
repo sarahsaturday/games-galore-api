@@ -84,18 +84,18 @@
     {
       "id": 10,
       "fullName": "Customer Test",
-      "email": "test@cust.com",
+      "email": "cust@test.com",
       "phone": "333-333-3333",
-      "streetAddress": "123 4th St",
+      "streetAddress": "333 3rd St",
       "isStaff": false,
       "isManager": false
     },
     {
       "id": 11,
-      "fullName": "TEST EMPL",
-      "email": "TEST@EMPL.COM",
+      "fullName": "Employee Test",
+      "email": "empl@test.com",
       "phone": "333-333-3333",
-      "streetAddress": "333 3RD ST",
+      "streetAddress": "333 3rd St",
       "isStaff": true,
       "isManager": false
     }
@@ -118,7 +118,7 @@
     },
     {
       "id": 4,
-      "loyaltyNumber": 88888,
+      "loyaltyNumber": 67891,
       "userId": 10
     }
   ],
@@ -167,10 +167,10 @@
     },
     {
       "id": 7,
-      "startDate": "2023-10-10",
+      "startDate": "2023-06-30",
       "payRate": 33.33,
       "userId": 11,
-      "storeId": 3
+      "storeId": 6
     }
   ],
   "stores": [
@@ -207,7 +207,7 @@
       "storeName": "TEST ARRAY",
       "storeAddress": "HELLO",
       "storePhone": "333-333-3333",
-      "storeHours": "9-5"
+      "storeHours": "9:00 AM - 5:00 PM"
     },
     {
       "id": 7,
@@ -224,8 +224,7 @@
       "categoryId": 1,
       "price": 29.99,
       "dateEntered": "2015-01-01",
-      "imageUrl": "https://i5.walmartimages.com/asr/e1fe5e64-57b4-46b8-92d9-841d9c162f92.f48f194a7b5ef0cc502e4655cef62cc4.jpeg",
-      "quantity": 25
+      "imageUrl": "https://i5.walmartimages.com/asr/e1fe5e64-57b4-46b8-92d9-841d9c162f92.f48f194a7b5ef0cc502e4655cef62cc4.jpeg"
     },
     {
       "id": 2,
@@ -233,8 +232,7 @@
       "categoryId": 3,
       "price": 89.99,
       "dateEntered": "2018-01-01",
-      "imageUrl": "https://i5.walmartimages.com/asr/5fd99f7b-7b47-492d-a216-13670cf71f6f.a93493e2f7b04dfb14e9c479b3c38d36.jpeg",
-      "quantity": 25
+      "imageUrl": "https://i5.walmartimages.com/asr/5fd99f7b-7b47-492d-a216-13670cf71f6f.a93493e2f7b04dfb14e9c479b3c38d36.jpeg"
     },
     {
       "id": 3,
@@ -242,8 +240,7 @@
       "categoryId": 1,
       "price": 19.99,
       "dateEntered": "2019-01-05",
-      "imageUrl": "https://i5.walmartimages.com/asr/b85bfdf6-b7be-4756-a96a-5d8c43eea0dd_1.93b6d6eaaad3ebef1cc293c74fa3bca4.jpeg",
-      "quantity": 25
+      "imageUrl": "https://i5.walmartimages.com/asr/b85bfdf6-b7be-4756-a96a-5d8c43eea0dd_1.93b6d6eaaad3ebef1cc293c74fa3bca4.jpeg"
     },
     {
       "id": 4,
@@ -251,8 +248,7 @@
       "categoryId": 3,
       "price": 59.99,
       "dateEntered": "2020-01-01",
-      "imageUrl": "https://i5.walmartimages.com/asr/2f7b1e7c-bf48-4108-a5f5-b6d61745d9ff.e7bbe5330a6f5e2e6eca3401de207692.jpeg",
-      "quantity": 25
+      "imageUrl": "https://i5.walmartimages.com/asr/2f7b1e7c-bf48-4108-a5f5-b6d61745d9ff.e7bbe5330a6f5e2e6eca3401de207692.jpeg"
     },
     {
       "id": 5,
@@ -260,24 +256,14 @@
       "categoryId": 3,
       "price": 49.99,
       "dateEntered": "2023-01-01",
-      "imageUrl": "https://i5.walmartimages.com/asr/ca3ec909-96e5-4bfa-bd37-597bc8d6b580_2.3fa0b1d3a5af21b6b81f34b50e95f4eb.jpeg",
-      "quantity": 25
+      "imageUrl": "https://i5.walmartimages.com/asr/ca3ec909-96e5-4bfa-bd37-597bc8d6b580_2.3fa0b1d3a5af21b6b81f34b50e95f4eb.jpeg"
     },
     {
       "id": 6,
       "gameTitle": "TEST GAME",
       "categoryId": 2,
       "price": 22.22,
-      "imageUrl": "https://www.pngkit.com/png/detail/228-2283144_beta-test-game-beta-testing.png",
-      "quantity": 25
-    },
-    {
-      "id": 7,
-      "gameTitle": "DELETE ME",
-      "categoryId": 3,
-      "price": 11.11,
-      "imageUrl": "https://www.pngkit.com/png/detail/228-2283144_beta-test-game-beta-testing.png",
-      "quantity": 25
+      "imageUrl": "https://www.pngkit.com/png/detail/228-2283144_beta-test-game-beta-testing.png"
     }
   ],
   "categories": [
@@ -292,6 +278,72 @@
     {
       "id": 3,
       "categoryName": "Strategy"
+    }
+  ],
+  "employees_in_stores": [
+    {
+      "id": 1,
+      "storeId": 1,
+      "employeeId": 1
+    },
+    {
+      "id": 2,
+      "storeId": 1,
+      "employeeId": 4
+    },
+    {
+      "id": 3,
+      "storeId": 2,
+      "employeeId": 2
+    },
+    {
+      "id": 4,
+      "storeId": 2,
+      "employeeId": 5
+    }
+  ],
+  "games_in_stores": [
+    {
+      "id": 1,
+      "storeId": 1,
+      "gameId": 1,
+      "quantity": 5
+    },
+    {
+      "id": 2,
+      "storeId": 1,
+      "gameId": 4,
+      "quantity": 10
+    },
+    {
+      "id": 3,
+      "storeId": 2,
+      "gameId": 2,
+      "quantity": 8
+    },
+    {
+      "id": 4,
+      "storeId": 2,
+      "gameId": 5,
+      "quantity": 3
+    },
+    {
+      "id": 5,
+      "storeId": 3,
+      "gameId": 3,
+      "quantity": 27
+    },
+    {
+      "id": 6,
+      "storeId": 3,
+      "gameId": 6,
+      "quantity": 10
+    },
+    {
+      "id": 8,
+      "storeId": 4,
+      "gameId": 6,
+      "quantity": 3
     }
   ],
   "purchaseOrders": [
