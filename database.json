@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "fullName": "John Doe",
+      "fullName": "John Doe 333",
       "email": "johndoe@example.com",
       "phone": "123-456-7890",
       "streetAddress": "123 Main St",
@@ -56,7 +56,7 @@
     },
     {
       "id": 7,
-      "fullName": "Alex Wilson22",
+      "fullName": "Alex Wilson 333",
       "email": "alexwilson7@example.com",
       "phone": "888-888-8888",
       "streetAddress": "447 Elm St",
@@ -94,7 +94,7 @@
   "customers": [
     {
       "id": 1,
-      "loyaltyNumber": 1234522,
+      "loyaltyNumber": 12345333,
       "userId": 7
     },
     {
@@ -154,7 +154,7 @@
   "stores": [
     {
       "id": 1,
-      "storeName": "Game Haven",
+      "storeName": "Game Haven 333",
       "storeAddress": "123 Main St",
       "storePhone": "111-111-1111",
       "storeHours": "9:00 AM - 6:00 PM"
@@ -230,9 +230,10 @@
       "imageUrl": "https://i5.walmartimages.com/asr/ca3ec909-96e5-4bfa-bd37-597bc8d6b580_2.3fa0b1d3a5af21b6b81f34b50e95f4eb.jpeg"
     },
     {
-      "gameTitle": "Test Game",
+      "gameTitle": "Test Game 333",
       "categoryId": 2,
       "price": 33.33,
+      "dateEntered": "2023-06-21",
       "imageUrl": "https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/ce2ece60-9b32-11e6-95ab-00163ed833e7/260663710/the-test-fun-for-friends-screenshot.jpg",
       "id": 6
     }
@@ -316,15 +317,15 @@
     },
     {
       "gameId": 6,
-      "storeId": 2,
-      "quantity": 33,
-      "id": 6
-    },
-    {
-      "gameId": 6,
       "storeId": 4,
       "quantity": 33,
       "id": 7
+    },
+    {
+      "gameId": 6,
+      "storeId": 5,
+      "quantity": 33,
+      "id": 8
     }
   ],
   "purchaseOrders": [
