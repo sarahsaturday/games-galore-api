@@ -56,7 +56,7 @@
     },
     {
       "id": 7,
-      "fullName": "Alex Wilson",
+      "fullName": "Alex Wilson22",
       "email": "alexwilson7@example.com",
       "phone": "888-888-8888",
       "streetAddress": "447 Elm St",
@@ -80,12 +80,21 @@
       "streetAddress": "666 Maple St",
       "isStaff": false,
       "isManager": false
+    },
+    {
+      "id": 10,
+      "fullName": "Test Customer",
+      "email": "test@customer.com",
+      "phone": "333-333-3333",
+      "streetAddress": "333 3rd St",
+      "isStaff": false,
+      "isManager": false
     }
   ],
   "customers": [
     {
       "id": 1,
-      "loyaltyNumber": 12345,
+      "loyaltyNumber": 1234522,
       "userId": 7
     },
     {
@@ -97,6 +106,11 @@
       "id": 3,
       "loyaltyNumber": 12347,
       "userId": 9
+    },
+    {
+      "id": 4,
+      "loyaltyNumber": 12348,
+      "userId": 10
     }
   ],
   "employees": [
@@ -132,8 +146,8 @@
     },
     {
       "id": 6,
-      "startDate": "2015-01-01",
-      "payRate": 40,
+      "startDate": "2015-01-07",
+      "payRate": 47,
       "userId": 6
     }
   ],
@@ -164,6 +178,13 @@
       "storeName": "Game Universe",
       "storeAddress": "999 Pine St",
       "storePhone": "444-444-4445",
+      "storeHours": "9:00 AM - 6:00 PM"
+    },
+    {
+      "id": 5,
+      "storeName": "Test Store",
+      "storeAddress": "333 3rd St",
+      "storePhone": "333-333-3333",
       "storeHours": "9:00 AM - 6:00 PM"
     }
   ],
@@ -207,6 +228,13 @@
       "price": 49.99,
       "dateEntered": "2023-01-01",
       "imageUrl": "https://i5.walmartimages.com/asr/ca3ec909-96e5-4bfa-bd37-597bc8d6b580_2.3fa0b1d3a5af21b6b81f34b50e95f4eb.jpeg"
+    },
+    {
+      "gameTitle": "Test Game",
+      "categoryId": 2,
+      "price": 33.33,
+      "imageUrl": "https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/ce2ece60-9b32-11e6-95ab-00163ed833e7/260663710/the-test-fun-for-friends-screenshot.jpg",
+      "id": 6
     }
   ],
   "categories": [
@@ -285,6 +313,18 @@
       "storeId": 3,
       "gameId": 3,
       "quantity": 27
+    },
+    {
+      "gameId": 6,
+      "storeId": 2,
+      "quantity": 33,
+      "id": 6
+    },
+    {
+      "gameId": 6,
+      "storeId": 4,
+      "quantity": 33,
+      "id": 7
     }
   ],
   "purchaseOrders": [
