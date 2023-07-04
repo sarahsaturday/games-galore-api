@@ -4,17 +4,8 @@
       "id": 2,
       "fullName": "Jane Smith",
       "email": "janesmith@example.com",
-      "phone": "987-654-3210",
+      "phone": "987-654-3333",
       "streetAddress": "456 Elm St",
-      "isStaff": true,
-      "isManager": false
-    },
-    {
-      "id": 3,
-      "fullName": "David Johnson Jr",
-      "email": "davidjohnson@example.com",
-      "phone": "555-555-5556",
-      "streetAddress": "789 Oak St",
       "isStaff": true,
       "isManager": false
     },
@@ -24,15 +15,6 @@
       "email": "sarahadams@example.com",
       "phone": "111-222-3333",
       "streetAddress": "999 Pine St",
-      "isStaff": true,
-      "isManager": true
-    },
-    {
-      "id": 5,
-      "fullName": "Michael Lee",
-      "email": "michaellee@example.com",
-      "phone": "444-444-4444",
-      "streetAddress": "222 Maple St",
       "isStaff": true,
       "isManager": true
     },
@@ -47,7 +29,7 @@
     },
     {
       "id": 7,
-      "fullName": "Alex Wilson",
+      "fullName": "Alex Wilson Jr.",
       "email": "alexwilson7@example.com",
       "phone": "888-888-8888",
       "streetAddress": "447 Elm St",
@@ -71,15 +53,6 @@
       "streetAddress": "666 Maple St",
       "isStaff": false,
       "isManager": false
-    },
-    {
-      "id": 10,
-      "fullName": "Test Customer",
-      "email": "test@customer.com",
-      "phone": "333-333-3333",
-      "streetAddress": "333 3rd St",
-      "isStaff": false,
-      "isManager": false
     }
   ],
   "customers": [
@@ -97,11 +70,6 @@
       "id": 3,
       "loyaltyNumber": 12347,
       "userId": 9
-    },
-    {
-      "id": 4,
-      "loyaltyNumber": 12348,
-      "userId": 10
     }
   ],
   "employees": [
@@ -112,22 +80,10 @@
       "userId": 2
     },
     {
-      "id": 3,
-      "startDate": "2019-01-01",
-      "payRate": 25,
-      "userId": 3
-    },
-    {
       "id": 4,
       "startDate": "2020-01-01",
       "payRate": 30,
       "userId": 4
-    },
-    {
-      "id": 5,
-      "startDate": "2018-01-01",
-      "payRate": 35,
-      "userId": 5
     },
     {
       "id": 6,
@@ -137,13 +93,6 @@
     }
   ],
   "stores": [
-    {
-      "id": 1,
-      "storeName": "Game Haven 333",
-      "storeAddress": "123 Main St",
-      "storePhone": "111-111-1111",
-      "storeHours": "9:00 AM - 6:00 PM"
-    },
     {
       "id": 2,
       "storeName": "Game Central",
@@ -166,25 +115,18 @@
       "storeHours": "9:00 AM - 6:00 PM"
     },
     {
-      "id": 5,
-      "storeName": "Test Store",
-      "storeAddress": "333 3rd St",
-      "storePhone": "333-333-3333",
-      "storeHours": "9:00 AM - 6:00 PM"
-    },
-    {
-      "storeName": "Test Store",
-      "storeAddress": "123-123-1234",
-      "storePhone": "111-111-1111",
+      "storeName": "Jerm's Jigsaws",
+      "storeAddress": "12 Main St",
+      "storePhone": "555-555-5555",
       "storeHours": "9:00 AM - 6:00 PM",
-      "id": 6
+      "id": 8
     },
     {
-      "storeName": "Yay STore",
+      "storeName": "Delete This Store",
       "storeAddress": "333 3rd St",
       "storePhone": "333-333-3333",
       "storeHours": "9:00 AM - 6:00 PM",
-      "id": 7
+      "id": 9
     }
   ],
   "games": [
@@ -201,7 +143,7 @@
       "gameTitle": "Dominion",
       "categoryId": 3,
       "price": 89.99,
-      "dateEntered": "2018-01-01",
+      "dateEntered": "2015-01-01",
       "imageUrl": "https://i5.walmartimages.com/asr/5fd99f7b-7b47-492d-a216-13670cf71f6f.a93493e2f7b04dfb14e9c479b3c38d36.jpeg"
     },
     {
@@ -209,7 +151,7 @@
       "gameTitle": "Scrabble",
       "categoryId": 1,
       "price": 19.99,
-      "dateEntered": "2019-01-05",
+      "dateEntered": "2005-01-05",
       "imageUrl": "https://i5.walmartimages.com/asr/b85bfdf6-b7be-4756-a96a-5d8c43eea0dd_1.93b6d6eaaad3ebef1cc293c74fa3bca4.jpeg"
     },
     {
@@ -217,7 +159,7 @@
       "gameTitle": "Ticket to Ride",
       "categoryId": 3,
       "price": 59.99,
-      "dateEntered": "2020-01-01",
+      "dateEntered": "2009-01-01",
       "imageUrl": "https://i5.walmartimages.com/asr/2f7b1e7c-bf48-4108-a5f5-b6d61745d9ff.e7bbe5330a6f5e2e6eca3401de207692.jpeg"
     },
     {
@@ -229,20 +171,20 @@
       "imageUrl": "https://i5.walmartimages.com/asr/ca3ec909-96e5-4bfa-bd37-597bc8d6b580_2.3fa0b1d3a5af21b6b81f34b50e95f4eb.jpeg"
     },
     {
-      "gameTitle": "Test Game 333",
+      "gameTitle": "Magic The Gathering",
       "categoryId": 2,
-      "price": 33.33,
-      "dateEntered": "2023-06-21",
-      "imageUrl": "https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/ce2ece60-9b32-11e6-95ab-00163ed833e7/260663710/the-test-fun-for-friends-screenshot.jpg",
-      "id": 6
+      "price": 10000000,
+      "dateEntered": "2023-07-04",
+      "imageUrl": "https://i5.walmartimages.com/asr/22505f24-d125-451f-8961-54d0127826ef_1.e79f77eeb21b351fda6cd966320a6490.jpeg",
+      "id": 8
     },
     {
-      "gameTitle": "Hooray",
+      "gameTitle": "Phase 10",
       "categoryId": 2,
-      "price": 33.33,
-      "dateEntered": "2023-06-23",
-      "imageUrl": "https://www.pngkit.com/png/detail/228-2283144_beta-test-game-beta-testing.png",
-      "id": 7
+      "price": 3.99,
+      "dateEntered": "2023-07-04",
+      "imageUrl": "https://i5.walmartimages.com/asr/690adc31-306c-4f62-8f61-7510ce5835ed.3044ac20bd64feeb8134290e75d9b769.jpeg",
+      "id": 9
     }
   ],
   "categories": [
@@ -261,24 +203,14 @@
   ],
   "employees_in_stores": [
     {
-      "id": 2,
-      "storeId": 1,
-      "employeeId": 2
-    },
-    {
       "id": 3,
-      "storeId": 2,
-      "employeeId": 3
+      "storeId": 8,
+      "employeeId": 2
     },
     {
       "id": 4,
       "storeId": 2,
       "employeeId": 4
-    },
-    {
-      "id": 5,
-      "storeId": 3,
-      "employeeId": 5
     },
     {
       "id": 6,
@@ -288,22 +220,22 @@
   ],
   "games_in_stores": [
     {
-      "id": 1,
-      "storeId": 1,
-      "gameId": 1,
-      "quantity": 5
-    },
-    {
-      "id": 2,
-      "storeId": 1,
-      "gameId": 4,
-      "quantity": 10
-    },
-    {
       "id": 3,
       "storeId": 2,
       "gameId": 2,
       "quantity": 8
+    },
+    {
+      "id": 3,
+      "storeId": 4,
+      "gameId": 2,
+      "quantity": 22
+    },
+    {
+      "id": 3,
+      "storeId": 2,
+      "gameId": 3,
+      "quantity": 15
     },
     {
       "id": 4,
@@ -318,28 +250,46 @@
       "quantity": 27
     },
     {
-      "gameId": 6,
-      "storeId": 5,
+      "gameId": 8,
+      "storeId": 3,
+      "quantity": 9,
+      "id": 13
+    },
+    {
+      "id": 3,
+      "storeId": 8,
+      "gameId": 1,
+      "quantity": 24
+    },
+    {
+      "id": 3,
+      "storeId": 3,
+      "gameId": 1,
+      "quantity": 2
+    },
+    {
+      "id": 3,
+      "storeId": 3,
+      "gameId": 4,
+      "quantity": 15
+    },
+    {
+      "gameId": 9,
+      "storeId": 3,
+      "quantity": 9,
+      "id": 14
+    },
+    {
+      "gameId": 9,
+      "storeId": 8,
+      "quantity": 16,
+      "id": 15
+    },
+    {
+      "gameId": 9,
+      "storeId": 9,
       "quantity": 33,
-      "id": 8
-    },
-    {
-      "gameId": 7,
-      "storeId": 2,
-      "quantity": 10,
-      "id": 9
-    },
-    {
-      "gameId": 7,
-      "storeId": 5,
-      "quantity": 33,
-      "id": 10
-    },
-    {
-      "gameId": 7,
-      "storeId": 6,
-      "quantity": 234,
-      "id": 11
+      "id": 16
     }
   ],
   "purchaseOrders": [
@@ -350,22 +300,10 @@
       "gameId": 1
     },
     {
-      "id": 2,
-      "customerId": 2,
-      "employeeId": 5,
-      "gameId": 2
-    },
-    {
       "id": 3,
       "customerId": 3,
       "employeeId": 6,
       "gameId": 3
-    },
-    {
-      "id": 4,
-      "customerId": 1,
-      "employeeId": 5,
-      "gameId": 4
     },
     {
       "id": 5,
@@ -384,12 +322,6 @@
       "customerId": 1,
       "employeeId": 6,
       "gameId": 2
-    },
-    {
-      "id": 8,
-      "customerId": 2,
-      "employeeId": 5,
-      "gameId": 3
     }
   ]
 }
